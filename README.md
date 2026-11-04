@@ -1,36 +1,91 @@
-![Xiaoyu Lu — a little closer to the details](assets/cover.png)
+![Prism Garden — prism butterfly](src/assets/universe.png)
 
-# A little closer to the details
+# Xiaoyu Lu · Interface Developer · Visual Browser Tools
 
-I'm **Xiaoyu Lu**. This workspace is about making visual work easier to inspect: the crop before an export, the rhythm of a feed, the exact place a comment belongs on a layout.
+> **Prism Garden** · Give every visual decision a place.
 
-The browser is the workbench. **JavaScript, HTML and CSS** are the current materials.
+**Make the details easier to see, compare and discuss.**
 
-## Three views of the same kind of work
+[Download the runnable mission](src/assets/launch.zip) · [Launch guide](src/LAUNCH.md) · [Working stack](#working-stack) · [Selected work](#selected-work)
 
-| Prepare | Arrange | Review |
+## Mission control
+
+![Prism Garden — checked synthetic demonstration](src/assets/mission.png)
+
+**First launch: proof-board.** A complete source snapshot, synthetic example and assertion script are included. The mission check and **1 existing test** passed. [Try the mission](src/LAUNCH.md) · [Snapshot and checked result](src/assets/launch.json).
+
+I'm Xiaoyu Lu. This is a visual workbench for the moment before an export or a review: the crop, the rhythm of a card layout, the exact place a comment belongs.
+
+The interface should make a visual decision easier to inspect. I like the path from a file to a preview, from a preview to feedback, and from feedback to a clearer next version.
+
+## What I focus on
+
+- **Image workflows.** Give export dimensions, source files and results an understandable place.
+- **Interface composition.** Cards, spacing and hierarchy should support a quick visual review.
+- **Feedback with context.** Keep a comment tied to its layout version and coordinates.
+
+## Working stack
+
+![Current tooling and explicitly planned lab directions](src/assets/stack.png)
+
+The upper panel shows technologies used by the selected tools. The lower row is the next lab track.
+
+## How I think about the work
+
+![From a visual input to a clearer next version](src/assets/workflow.png)
+
+## Selected work
+
+Three existing local tools form this curated collection. Their public project repositories are being prepared.
+
+![Three selected projects and their purpose](src/assets/projects.png)
+
+| Project / stack | Why it belongs here | Input → output |
 | --- | --- | --- |
-| **Image Batch** | **Feed Preview** | **Proof Board** |
-| Resize selected images and inspect an export manifest. | Preview a set of text-and-image cards locally. | Keep layout versions and comments tied to coordinates. |
+| **Image Batch**<br>JavaScript · browser files | Know what comes out of a resize pass. Resize selected images and inspect an export manifest. | **In:** Images + maximum dimensions<br>**Out:** Resized images + manifest |
+| **Feed Preview**<br>JavaScript · HTML · CSS | Review the rhythm of the cards before the next step. Preview text-and-image cards locally with an adjustable column layout. | **In:** Card text + optional image<br>**Out:** A local card preview |
+| **Proof Board**<br>JavaScript · coordinates | Give a comment an exact place to live. Keep layout versions and coordinate-based comments in one review workflow. | **In:** Layout version + comments<br>**Out:** A versioned feedback board |
 
-These existing local tools are selected for this profile. Their public repositories are in preparation.
+### A review comment with a home
 
-## What makes a visual tool feel useful?
+```csv
+x,y,text
+32,48,Check the heading alignment
+68,72,Give this caption more room
+```
 
-**A preview with context.** The person using it should understand what will be cropped or exported.
+Synthetic feedback entries: a position and an actionable observation are a useful starting point for visual review.
 
-**A comment with a home.** Feedback is easier to act on when it points to the relevant version and place.
+## Code and activity
 
-**Room to try again.** Keep the original nearby while reviewing a new result.
+![Public repository totals](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/overview.svg)
 
-Those priorities guide the next iterations.
+![Public default-branch history, all authors](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/activity.svg)
 
-**On the sketchbook list:** image-by-image review, easier card arrangement and more legible feedback states. TypeScript is an optional future direction; these tools are currently JavaScript.
+![Public repository language bytes](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/languages.svg)
+
+![Limited public account interactions](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/interactions.svg)
+
+These charts are rebuilt on a six-hour schedule after GitHub Pages is enabled. The observation time is printed on every chart. Commits are unique default-branch SHAs across all authors and owned public repositories, including forks. Language bytes describe repositories, not personal skill. Public interactions are a limited event feed (up to 300 events / 30 days), not visitor analytics. API and image caches may delay updates.
+
+[Live data and scope](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/metrics.json) · [Portfolio website](https://luxiaoyu99.github.io/luXiaoyu99/) · [Refresh setup](src/SETUP.md)
+
+## Next lab
+
+1. **Review each export.** Make image-by-image output inspection more comfortable.
+2. **Arrange with less friction.** Explore easier card ordering and a typed layout model.
+3. **Make feedback legible.** Refine annotation states and the path between layout versions.
+
+## Start a conversation
+
+A crop that needs context, a layout that is hard to compare or a review comment that gets lost is a useful interface problem to bring here.
+
+[Open the profile repository's issues](https://github.com/luXiaoyu99/luXiaoyu99/issues) · [Browse the repositories](https://github.com/luXiaoyu99?tab=repositories)
 
 > 🎨 Tuning the details.
 
-[Browse the collection](https://github.com/luXiaoyu99?tab=repositories)
-
 ---
 
-<sub>Fictional developer persona · AI-illustrated avatar. Project inclusion preserves original contributors, licenses and commit history.</sub>
+<sub>Fictional developer persona · AI-illustrated avatar. Curated tools retain original authors, licenses and commit history. Technology icons: Simple Icons.</sub>
+
+[Artwork and data notes](src/assets/NOTICE.md)

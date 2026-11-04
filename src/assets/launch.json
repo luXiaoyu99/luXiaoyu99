@@ -1,0 +1,48 @@
+{
+  "login": "luXiaoyu99",
+  "world": "Prism Garden",
+  "project": "proof-board",
+  "sourceHead": "144a00335f145dcbb3a4b8d2e4579bb773924cfb",
+  "runtime": "Node.js 22+",
+  "start": "node server.mjs",
+  "port": 8813,
+  "demoCheck": "node examples/profile-mission/check.mjs",
+  "existingTests": "passed",
+  "testCount": 1,
+  "demoResult": {
+    "facts": [
+      [
+        "3",
+        "review comments"
+      ],
+      [
+        "1",
+        "hashed layout version"
+      ],
+      [
+        "0–100%",
+        "coordinate system"
+      ]
+    ],
+    "comments": [
+      {
+        "x": 25,
+        "y": 30,
+        "text": "Check the heading alignment"
+      },
+      {
+        "x": 70,
+        "y": 75,
+        "text": "Give this caption more room"
+      },
+      {
+        "x": 52,
+        "y": 52,
+        "text": "Clarify the primary action"
+      }
+    ]
+  },
+  "zipBytes": 114680,
+  "zipSha256": "BA67E0B1B796AB5A4B09C611043224577A6EB03BEE4560193D98A858A83BFDC6",
+  "attribution": "Original project authors and LICENSE retained. Source download excludes .git; original history remains in the local source repository."
+}
