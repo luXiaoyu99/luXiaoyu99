@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "login": "luXiaoyu99",
-  "observedAt": "2026-11-09T14:12:58.994Z",
+  "observedAt": "2026-11-10T01:06:03.160Z",
   "refreshHours": 6,
   "window": {
-    "since": "2026-10-11T00:00:00.000Z",
-    "until": "2026-11-09T14:12:58.994Z",
+    "since": "2026-10-12T00:00:00.000Z",
+    "until": "2026-11-10T01:06:03.160Z",
     "timezone": "UTC"
   },
   "scope": "Owned public repositories including forks; unique default-branch commits by all authors. Language bytes describe repositories, not skill or authorship. Public events are a limited activity feed, not visitor analytics.",
@@ -14,7 +14,7 @@
     "forks": 0,
     "stars": 0,
     "openIssuesAndPullRequests": 0,
-    "uniqueCommits30d": 16
+    "uniqueCommits30d": 18
   },
   "repositories": [
     {
@@ -31,17 +31,13 @@
     }
   ],
   "languages": {
-    "JavaScript": 117143,
+    "JavaScript": 118316,
     "HTML": 21728,
     "Shell": 208,
     "Batchfile": 174,
     "Makefile": 60
   },
   "daily": [
-    {
-      "day": "2026-10-11",
-      "commits": 0
-    },
     {
       "day": "2026-10-12",
       "commits": 0
@@ -156,6 +152,10 @@
     },
     {
       "day": "2026-11-09",
+      "commits": 2
+    },
+    {
+      "day": "2026-11-10",
       "commits": 0
     }
   ],
@@ -172,9 +172,9 @@
   "sources": [
     "https://api.github.com/users/luXiaoyu99/repos?type=owner&sort=full_name&per_page=100&page=1",
     "https://api.github.com/repos/luXiaoyu99/luXiaoyu99/languages",
-    "https://api.github.com/repos/luXiaoyu99/luXiaoyu99/commits?sha=main&since=2026-10-11T00:00:00.000Z&until=2026-11-09T14:12:58.994Z&per_page=100&page=1",
+    "https://api.github.com/repos/luXiaoyu99/luXiaoyu99/commits?sha=main&since=2026-10-12T00:00:00.000Z&until=2026-11-10T01:06:03.160Z&per_page=100&page=1",
     "https://api.github.com/repos/luXiaoyu99/proof-board/languages",
-    "https://api.github.com/repos/luXiaoyu99/proof-board/commits?sha=main&since=2026-10-11T00:00:00.000Z&until=2026-11-09T14:12:58.994Z&per_page=100&page=1",
+    "https://api.github.com/repos/luXiaoyu99/proof-board/commits?sha=main&since=2026-10-12T00:00:00.000Z&until=2026-11-10T01:06:03.160Z&per_page=100&page=1",
     "https://api.github.com/users/luXiaoyu99/events/public?per_page=100&page=1"
   ],
   "automation": {
