@@ -58,13 +58,13 @@ Synthetic feedback entries: a position and an actionable observation are a usefu
 
 ## Code and activity
 
-![Public repository totals](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/overview.svg?snapshot=2026-11-13T01%3A14%3A20.022Z)
+![Public repository totals](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/overview.svg?snapshot=2026-11-14T01%3A05%3A43.951Z)
 
-![Public default-branch history, all authors](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/activity.svg?snapshot=2026-11-13T01%3A14%3A20.022Z)
+![Public default-branch history, all authors](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/activity.svg?snapshot=2026-11-14T01%3A05%3A43.951Z)
 
-![Public repository language bytes](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/languages.svg?snapshot=2026-11-13T01%3A14%3A20.022Z)
+![Public repository language bytes](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/languages.svg?snapshot=2026-11-14T01%3A05%3A43.951Z)
 
-![Limited public account interactions](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/interactions.svg?snapshot=2026-11-13T01%3A14%3A20.022Z)
+![Limited public account interactions](https://luxiaoyu99.github.io/luXiaoyu99/src/assets/live/interactions.svg?snapshot=2026-11-14T01%3A05%3A43.951Z)
 
 These charts refresh from real GitHub observations on every successful workflow run, scheduled every six hours. At most one daily snapshot is committed; later runs still rebuild and publish the charts. Snapshot commits are labelled automated and authored by the profile owner using a verified GitHub noreply identity, with github-actions[bot] as committer. Owner contribution attribution follows GitHub rules; repository charts still include all authors. The observation time is printed on every chart. Commits are unique default-branch SHAs across all authors and owned public repositories, including forks. Language bytes describe repositories, not personal skill. Public interactions are a limited event feed (up to 300 events / 30 days), not visitor analytics. API and image caches may delay updates.
 
